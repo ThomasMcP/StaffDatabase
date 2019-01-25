@@ -561,7 +561,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548432001114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548432165221" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -581,7 +581,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManagerTest">
+  <component name="RunManager" selected="JUnit.EmployeeTest">
     <configuration name="All in EmployeeSoftware_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EmployeeSoftware_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -633,9 +633,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="JUnit.All in EmployeeSoftware_test" />
-        <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.DirectorTest" />
         <item itemvalue="JUnit.DirectorTest.canPayDoubleBonus" />
       </list>

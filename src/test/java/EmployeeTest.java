@@ -11,20 +11,20 @@ public class EmployeeTest {
 
     @Test
     public void managerAsEmployee(){
-        employee = new Manager("Patrick Bateman", "BATEMAN1", 50000, DepartmentType.HR);
-        assertEquals("Patrick Bateman", employee.getName());
+        employee = new Manager("Thomas McPhee", "THOMAS1", 50000, DepartmentType.HR);
+        assertEquals("Thomas McPhee", employee.getName());
     }
 
     @Test
     public void developerAsEmployee(){
-        employee = new Developer("Patrick Bateman", "BATEMAN1", 50000);
-        assertEquals("Patrick Bateman", employee.getName());
+        employee = new Developer("Thomas McPhee", "THOMAS1", 50000);
+        assertEquals("Thomas McPhee", employee.getName());
     }
 
     @Test
     public void databaseAdminAsEmployee(){
-        employee = new DatabaseAdmin("Patrick Bateman", "BATEMAN1", 50000);
-        assertEquals("Patrick Bateman", employee.getName());
+        employee = new DatabaseAdmin("Thomas McPhee", "THOMAS1", 50000);
+        assertEquals("Thomas McPhee", employee.getName());
     }
 
 }
