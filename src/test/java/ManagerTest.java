@@ -10,12 +10,12 @@ public class ManagerTest {
 
     @Before
     public void before(){
-        manager = new Manager("Patrick Bateman", "BATEMAN1", 50000, DepartmentType.HR);
+        manager = new Manager("Thomas McPhee", "THOMAS1", 50000, DepartmentType.HR);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Patrick Bateman", manager.getName());
+        assertEquals("Thomas McPhee", manager.getName());
     }
 
     @Test
@@ -25,7 +25,7 @@ public class ManagerTest {
 
     @Test
     public void hasNINumber(){
-        assertEquals("BATEMAN1", manager.getNINumber());
+        assertEquals("THOMAS1", manager.getNINumber());
     }
 
     @Test
